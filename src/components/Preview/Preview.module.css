@@ -1,0 +1,31 @@
+.wrapper {
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05), 0px 4px 8px rgba(0, 0, 0, 0.05),
+    0px 8px 16px rgba(0, 0, 0, 0.05);
+}
+
+.content {
+  height: 100%;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.header {
+  padding: 0.5rem 1rem;
+  background-color: #ddd;
+}
+
+.title {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.body {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .body {
+    padding: 1rem 2rem;
+  }
+}
