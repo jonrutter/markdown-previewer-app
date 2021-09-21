@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import '@fontsource/open-sans';
 
 ReactDOM.render(
   <React.StrictMode>
