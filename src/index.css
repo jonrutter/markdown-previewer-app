@@ -1,13 +1,111 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  font-size: 16px;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent /* 4 */;
+  -ms-text-size-adjust: 100%; /* 5 */
+  -webkit-text-size-adjust: 100%; /* 5 */
+  word-break: break-word; /* 6 */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #0c0d0e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5,
+h6 {
+  font-size: 1.15rem;
+}
+
+/* a {
+  color: inherit;
+  background-color: transparent;
+  text-decoration: none;
+} */
+
+button {
+  border: none;
+  background-color: transparent;
+  line-height: 1;
+  cursor: pointer;
+  text-transform: none;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+}
+
+input,
+textarea {
+  line-height: 1.15;
+}
+
+textarea {
+  overflow: auto;
+}
+
+ul,
+ol {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+code,
+pre {
+  background-color: #333;
+  color: #fff;
+  padding: 0.25rem;
+  font-size: inherit;
+}
+
+pre {
+  margin-bottom: 1rem;
 }

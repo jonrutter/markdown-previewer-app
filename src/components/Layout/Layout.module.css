@@ -1,0 +1,12 @@
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fdfdfd;
+}
+
+.grid {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
