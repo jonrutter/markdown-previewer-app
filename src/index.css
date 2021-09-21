@@ -17,6 +17,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  color: #0c0d0e;
 }
 
 h1,
@@ -28,6 +29,27 @@ h6 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5,
+h6 {
+  font-size: 1.15rem;
 }
 
 /* a {
@@ -59,27 +81,6 @@ textarea {
 
 textarea {
   overflow: auto;
-}
-
-.app {
-  width: 100%;
-  min-height: 100vh;
-  padding: 2rem 1rem;
-  background-color: #f0f2f5;
-}
-
-.app-title {
-  text-align: center;
-}
-
-.app-grid {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.app-grid > div {
-  flex: 1 1 600px;
-  margin: 0.5rem;
 }
 
 ul,
