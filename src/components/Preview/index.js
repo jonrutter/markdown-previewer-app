@@ -37,7 +37,13 @@ const Preview = ({ input, fullScreen, setFullScreen }) => {
         <section className={s.content}>
           <header className={s.header}>
             <h2 className={s.title}>Previewer</h2>
-            <button onClick={toggleFullScreen}>
+            <button
+              onClick={toggleFullScreen}
+              aria-label={
+                fullScreen === 'preview' ? 'Expand preview' : 'Shrink preview'
+              }
+              className={s.expandBtn}
+            >
               {fullScreen === 'preview' ? <FaCompressAlt /> : <FaExpandAlt />}
             </button>
           </header>

@@ -39,6 +39,10 @@
   margin: 0;
 }
 
+.expandBtn {
+  padding: 0.5rem;
+}
+
 .body {
   flex: 1;
   border-bottom-right-radius: 0.5rem;

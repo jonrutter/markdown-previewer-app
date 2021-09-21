@@ -37,6 +37,10 @@
   margin: 0;
 }
 
+.expandBtn {
+  padding: 0.5rem;
+}
+
 .body {
   padding: 1rem;
   flex: 1;
