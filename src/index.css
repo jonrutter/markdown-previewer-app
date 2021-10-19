@@ -20,13 +20,18 @@ body {
   color: #0c0d0e;
 }
 
-h1,
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 400;
   margin-bottom: 1rem;
 }
@@ -108,4 +113,15 @@ pre {
 
 pre {
   margin-bottom: 1rem;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
