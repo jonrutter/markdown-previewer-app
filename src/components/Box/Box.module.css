@@ -1,0 +1,91 @@
+.wrapper {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05), 0px 4px 8px rgba(0, 0, 0, 0.05),
+    0px 8px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #fff;
+  flex: 1 1 600px;
+  margin: 0.5rem;
+}
+
+.expanded {
+  position: fixed;
+  top: 4rem;
+  right: 0.5rem;
+  left: 0.5rem;
+  bottom: 1.5rem;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.header {
+  position: relative;
+  padding: 0.5rem 1rem;
+  /* background: linear-gradient(to right, #479bea, #0ba6df); */
+  background: linear-gradient(to right, #5b21b6, #4f46e5);
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05), 0px 4px 8px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.title,
+.deletePrompt h2 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons :last-child {
+  margin-left: 0.5rem;
+}
+
+.body,
+.editorBody {
+  flex: 1;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.expanded .body {
+  overflow-y: auto;
+}
+
+.btn {
+  padding: 0.5rem;
+}
+
+.expanded textarea {
+  height: 100%;
+  min-height: 100%;
+}
+
+.deletePrompt {
+  position: absolute;
+  background: linear-gradient(to right, #5b21b6, #4f46e5);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
