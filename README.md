@@ -2,9 +2,9 @@
 
 ![Netlify Status](https://api.netlify.com/api/v1/badges/5cb5f43f-cd74-4d73-939f-2e3946e2acaa/deploy-status)
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://jonrutter-markdown-previewer.netlify.app/)
-[![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/jonrutter/markdown-previewer)
-[![GitHub Stars](https://img.shields.io/github/stars/jonrutter/markdown-previewer.svg)](https://github.com/jonrutter/markdown-previewer/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/jonrutter/markdown-previewer.svg)](https://github.com/jonrutter/markdown-previewer/issues)
+[![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/rutterjt/markdown-previewer)
+[![GitHub Stars](https://img.shields.io/github/stars/rutterjt/markdown-previewer.svg)](https://github.com/rutterjt/markdown-previewer/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/rutterjt/markdown-previewer.svg)](https://github.com/rutterjt/markdown-previewer/issues)
 
 A simple, easy to use markdown previewer app.
 
@@ -40,9 +40,9 @@ Preview the live demo: [https://jonrutter-markdown-previewer.netlify.app/](https
 
 **Jon Rutter**
 
-- [GitHub Profile](https://www.github.com/jonrutter)
-- [Email](mailto:contact@jonrutter.com)
-- [Website](https://www.jonrutter.com)
+- [GitHub Profile](https://www.github.com/rutterjt)
+- [Email](mailto:contact@jonrutter.io)
+- [Website](https://www.jonrutter.io)
 
 ## License
 
